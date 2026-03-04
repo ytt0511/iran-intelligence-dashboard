@@ -247,7 +247,7 @@ A: 需要在 OpenClaw 配置 GitHub Personal Access Token：
 2. 复制 token
 3. 在 OpenClaw 任务中使用：
 ```bash
-git remote set-url origin https://YOUR_TOKEN@github.com/username/repo.git
+git remote set-url origin https://[YOUR_TOKEN]@github.com/username/repo.git
 ```
 
 ### Q: Vercel 自动部署不生效？

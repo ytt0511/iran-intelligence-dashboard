@@ -34,3 +34,10 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Data files (large datasets)
+data/polymarket_data/
