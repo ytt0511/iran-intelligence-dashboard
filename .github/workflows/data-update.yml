@@ -1,0 +1,40 @@
+name: Data Update
+
+on:
+  schedule:
+    # 每小时执行一次 (UTC 时间)
+    - cron: '0 * * * *'
+  workflow_dispatch:  # 支持手动触发
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install requests beautifulsoup4 lxml
+
+      - name: Run news crawler
+        run: |
+          python scripts/crawl_news.py
+
+      - name: Run Polymarket updater
+        run: |
+          python scripts/crawl_news_hourly.py
+
+      - name: Commit and push
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add data/
+          git diff --quiet && git diff --staged --quiet || git commit -m "Update data files [skip ci]"
+          git push
