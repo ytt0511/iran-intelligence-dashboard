@@ -118,10 +118,12 @@ export default function PolymarketPanel({ lastUpdate }: PolymarketPanelProps) {
     const dayInMs = 24 * 60 * 60 * 1000;
 
     for (let i = validData.length - 1; i >= 0; i--) {
-      const itemTime = new Date(validData[i].datetime).getTime();
+      const item = validData[i];
+      if (!item) continue;
+      const itemTime = new Date(item.datetime).getTime();
       if (latestTime - itemTime >= dayInMs) {
-        if (validData[i] && validData[i].value !== null && latest.value !== null) {
-          change24h = ((latest.value - validData[i].value) * 100);
+        if (item.value !== null && latest.value !== null && typeof item.value === 'number') {
+          change24h = ((latest.value - item.value) * 100);
         }
         break;
       }
