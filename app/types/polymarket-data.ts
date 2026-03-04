@@ -79,7 +79,7 @@ export interface PolymarketDataApiResponse {
  */
 export interface ChartDataPoint {
   datetime: string;
-  [indicatorName: string]: number | null;
+  [indicatorName: string]: number | null | string;
 }
 
 /**
