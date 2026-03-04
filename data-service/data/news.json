@@ -1,0 +1,130 @@
+{
+  "metadata": {
+    "report_id": "iran-news-2026030400",
+    "generated_at": "2026-03-04T00:07:00+08:00",
+    "period": "2026-03-04 00:00 GMT+8",
+    "total_news": 8,
+    "risk_level": "CRITICAL"
+  },
+  "news": [
+    {
+      "id": "iran-2026030400-001",
+      "title": "伊朗宣布关闭霍尔木兹海峡，将打击所有试图通过的船只",
+      "source": "新浪财经/财联社",
+      "url": "https://finance.sina.com.cn/roll/2026-03-03/doc-inhpsicu7618323.shtml",
+      "timestamp": "2026-03-04T00:05:00Z",
+      "summary": "伊朗伊斯兰革命卫队宣布霍尔木兹海峡已关闭，将打击所有试图通过的船只。高盛评估欧洲天然气或涨130%，油价每桶涨18美元。",
+      "category": "energy",
+      "importance": "critical",
+      "tags": ["iran", "strait_of_hormuz", "oil", "shipping", "blockade"]
+    },
+    {
+      "id": "iran-2026030400-002",
+      "title": "伊朗最高领袖哈梅内伊的妻子因伤势过重去世",
+      "source": "每日经济新闻/央视新闻",
+      "url": "https://cd.nbd.com.cn/articles/2026-03-02/4276022.html",
+      "timestamp": "2026-03-04T00:04:00Z",
+      "summary": "3月2日，伊朗遇袭身亡的最高领袖哈梅内伊的妻子曼苏雷·霍贾斯泰因美以袭击造成的伤势过重去世。",
+      "category": "military",
+      "importance": "critical",
+      "tags": ["iran", "khamenei", "casualties", "military"]
+    },
+    {
+      "id": "iran-2026030400-003",
+      "title": "美中央司令部证实：3架美军战机在科威特坠毁",
+      "source": "每日经济新闻/央视新闻",
+      "url": "https://cd.nbd.com.cn/articles/2026-03-02/4276022.html",
+      "timestamp": "2026-03-04T00:03:00Z",
+      "summary": "美国中央司令部发布声明称，三架美国F-15E战斗机在科威特执行行动时因疑似'误击'事件坠毁，但飞行员安全无恙。伊朗方面称三架美军战斗机被伊朗防空系统击落。",
+      "category": "military",
+      "importance": "critical",
+      "tags": ["us", "iran", "military", "aircraft", "kuwait"]
+    },
+    {
+      "id": "iran-2026030400-004",
+      "title": "卡塔尔能源公司宣布暂停生产液化天然气",
+      "source": "每日经济新闻/央视新闻",
+      "url": "https://cd.nbd.com.cn/articles/2026-03-02/4276022.html",
+      "timestamp": "2026-03-04T00:02:00Z",
+      "summary": "卡塔尔能源公司宣布，由于公司旗下两处能源设施当天遭到来自伊朗的无人机袭击，决定暂停生产液化天然气。卡塔尔天然气储量居全球第三。",
+      "category": "energy",
+      "importance": "critical",
+      "tags": ["qatar", "iran", "energy", "lng", "drone_attack"]
+    },
+    {
+      "id": "iran-2026030400-005",
+      "title": "6名美军士兵在对伊朗行动中身亡",
+      "source": "每日经济新闻/央视新闻",
+      "url": "https://cd.nbd.com.cn/articles/2026-03-02/4276022.html",
+      "timestamp": "2026-03-04T00:01:00Z",
+      "summary": "美国中央司令部表示，截至美国东部时间2日16时，已有6名美军士兵在对伊朗行动中身亡。",
+      "category": "military",
+      "importance": "critical",
+      "tags": ["us", "iran", "casualties", "military"]
+    },
+    {
+      "id": "iran-2026030400-006",
+      "title": "中方敦促美以停止军事行动，3000余名中国公民已撤离伊朗",
+      "source": "21经济网",
+      "url": "https://www.21jingji.com/article/20260303/herald/50a130a7485b5b1b09e8ed40117213dd.html",
+      "timestamp": "2026-03-03T23:45:00Z",
+      "summary": "外交部发言人表示，截至北京时间3月2日，已有3000余名中国公民自伊朗撤离。王毅应约同伊朗外长阿拉格齐通电话，敦促美以立即停止军事行动。",
+      "category": "diplomacy",
+      "importance": "high",
+      "tags": ["china", "iran", "evacuation", "diplomacy"]
+    },
+    {
+      "id": "iran-2026030400-007",
+      "title": "大量油轮滞留波斯湾扰动油市",
+      "source": "财新网",
+      "url": "https://www.caixin.com/2026-03-01/102418077.html",
+      "timestamp": "2026-03-03T23:30:00Z",
+      "summary": "航行在该地区的船只正接收来自伊朗伊斯兰革命卫队的高频反复信息，声明任何船只均无权通过霍尔木兹海峡。经霍尔木兹海峡的石油运输量占全球石油运输量30%。",
+      "category": "energy",
+      "importance": "high",
+      "tags": ["iran", "strait_of_hormuz", "oil", "shipping"]
+    },
+    {
+      "id": "iran-2026030400-008",
+      "title": "美国财政部宣布对与伊朗能源和航运体系相关实体实施制裁",
+      "source": "网易新闻/财联社",
+      "url": "https://www.163.com/dy/article/KK1LSTK905567I2C.html",
+      "timestamp": "2026-03-03T23:15:00Z",
+      "summary": "美国财政部外国资产控制办公室宣布，对与伊朗能源和航运体系相关的多家实体及船只实施新一轮制裁，重点指向协助伊朗石油、能源及衍生品出口的航运和管理网络。",
+      "category": "sanction",
+      "importance": "medium",
+      "tags": ["us", "iran", "sanctions", "energy", "shipping"]
+    }
+  ],
+  "summary": {
+    "overview": "美伊冲突进入全面升级阶段。伊朗宣布关闭霍尔木兹海峡，将打击所有试图通过的船只；伊朗最高领袖哈梅内伊的妻子因伤去世；3架美军战机在科威特坠毁/被击落；卡塔尔能源设施遭伊朗无人机袭击暂停生产；6名美军确认死亡。中方已协助3000余名中国公民撤离。",
+    "key_themes": [
+      "霍尔木兹海峡正式关闭，全球30%石油运输受阻",
+      "伊朗最高领袖妻子去世，冲突进一步激化",
+      "3架美军战机坠毁，双方军事对抗升级",
+      "卡塔尔能源设施遭袭，全球能源供应受冲击",
+      "中方大规模撤侨，3000余名公民已撤离"
+    ],
+    "risk_assessment": {
+      "level": "CRITICAL",
+      "score": 10.0,
+      "trend": "急剧升级",
+      "primary_concerns": [
+        "霍尔木兹海峡关闭影响全球30%石油运输",
+        "高盛评估油价每桶或涨18美元，欧洲天然气或涨130%",
+        "美伊进入全面军事对抗状态",
+        "地区能源设施连续遭袭，全球能源供应危机",
+        "中方大规模撤侨显示局势严峻"
+      ]
+    }
+  },
+  "hourly_stats": {
+    "critical_news": 5,
+    "high_news": 2,
+    "medium_news": 1,
+    "military": 4,
+    "energy": 3,
+    "diplomacy": 1,
+    "sanction": 1
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "lastUpdate": "2026-03-04T08:51:00+08:00",
+  "assets": [
+    {
+      "symbol": "CL=F",
+      "name": "WTI原油",
+      "price": 74.56,
+      "change": 3.56,
+      "changePercent": 5.01,
+      "currency": "USD",
+      "unit": "美元/桶",
+      "lastUpdate": "2026-03-04T08:51:00+08:00"
+    },
+    {
+      "symbol": "BZ=F",
+      "name": "布伦特原油",
+      "price": 77.24,
+      "change": 5.92,
+      "changePercent": 8.30,
+      "currency": "USD",
+      "unit": "美元/桶",
+      "lastUpdate": "2026-03-04T08:51:00+08:00"
+    },
+    {
+      "symbol": "GC=F",
+      "name": "黄金",
+      "price": 5043.92,
+      "change": -287.10,
+      "changePercent": -5.38,
+      "currency": "USD",
+      "unit": "美元/盎司",
+      "lastUpdate": "2026-03-04T08:51:00+08:00"
+    },
+    {
+      "symbol": "DX-Y.NYB",
+      "name": "美元指数",
+      "price": 98.98,
+      "change": 0.64,
+      "changePercent": 0.65,
+      "currency": "USD",
+      "unit": "点",
+      "lastUpdate": "2026-03-04T08:51:00+08:00"
+    },
+    {
+      "symbol": "^GSPC",
+      "name": "标普500",
+      "price": 6816.63,
+      "change": -65.00,
+      "changePercent": -0.94,
+      "currency": "USD",
+      "unit": "点",
+      "lastUpdate": "2026-03-04T08:51:00+08:00"
+    },
+    {
+      "symbol": "SCFI",
+      "name": "上海航运指数",
+      "price": 1266.56,
+      "change": -50.20,
+      "changePercent": -3.81,
+      "currency": "CNY",
+      "unit": "点",
+      "lastUpdate": "2026-02-06T15:00:00+08:00"
+    }
+  ],
+  "summary": {
+    "upCount": 3,
+    "downCount": 3,
+    "oilTrend": "up",
+    "goldTrend": "down",
+    "dollarTrend": "up",
+    "sp500Trend": "down"
+  }
+}

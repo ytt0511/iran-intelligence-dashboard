@@ -1,0 +1,82 @@
+[
+  {
+    "id": "iran-poly-001",
+    "title": "Will Iran close the Strait of Hormuz by Dec 31, 2026?",
+    "probability": 44.55,
+    "change24h": -27.4,
+    "volume": 72000000,
+    "category": "strait",
+    "trend": "down",
+    "lastUpdate": "2026-03-04T00:11:00+08:00"
+  },
+  {
+    "id": "iran-poly-002",
+    "title": "US Strike on Iran by March 31, 2026",
+    "probability": 68.0,
+    "change24h": 15.0,
+    "volume": 529000000,
+    "category": "conflict",
+    "trend": "up",
+    "lastUpdate": "2026-03-04T00:11:00+08:00"
+  },
+  {
+    "id": "iran-poly-003",
+    "title": "US Strike on Iran by June 30, 2026",
+    "probability": 77.0,
+    "change24h": 8.0,
+    "volume": 89000000,
+    "category": "conflict",
+    "trend": "up",
+    "lastUpdate": "2026-03-04T00:11:00+08:00"
+  },
+  {
+    "id": "iran-poly-004",
+    "title": "US Troops Enter Iran by March 7, 2026",
+    "probability": 28.0,
+    "change24h": 5.0,
+    "volume": 2000000,
+    "category": "ground",
+    "trend": "up",
+    "lastUpdate": "2026-03-04T00:11:00+08:00"
+  },
+  {
+    "id": "iran-poly-005",
+    "title": "Iran x Israel Ceasefire by March 31, 2026",
+    "probability": 61.0,
+    "change24h": -10.0,
+    "volume": 45000000,
+    "category": "ceasefire",
+    "trend": "down",
+    "lastUpdate": "2026-03-04T00:11:00+08:00"
+  },
+  {
+    "id": "iran-poly-006",
+    "title": "Iran Regime Change by June 30, 2026",
+    "probability": 54.0,
+    "change24h": 12.0,
+    "volume": 30570000,
+    "category": "regime",
+    "trend": "up",
+    "lastUpdate": "2026-03-04T00:11:00+08:00"
+  },
+  {
+    "id": "iran-poly-007",
+    "title": "US Enter Iran by 2027 (Ground Invasion)",
+    "probability": 19.0,
+    "change24h": 3.0,
+    "volume": 207000,
+    "category": "ground",
+    "trend": "up",
+    "lastUpdate": "2026-03-04T00:11:00+08:00"
+  },
+  {
+    "id": "iran-poly-008",
+    "title": "Iran x Israel Ceasefire by April 30, 2026",
+    "probability": 78.0,
+    "change24h": 5.0,
+    "volume": 861000,
+    "category": "ceasefire",
+    "trend": "up",
+    "lastUpdate": "2026-03-04T00:11:00+08:00"
+  }
+]

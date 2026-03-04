@@ -1,0 +1,131 @@
+{
+  "timestamp": "2026-03-04T08:48:00+08:00",
+  "source": "kimi_search",
+  "markets": [
+    {
+      "id": "iran-poly-001",
+      "title": "US-Iran Official Ceasefire by March 2",
+      "probability": 4,
+      "change24h": -2,
+      "volume": 89600000,
+      "category": "ceasefire",
+      "trend": "down",
+      "notes": "2月28日美以联合军事行动后，短期停火概率极低"
+    },
+    {
+      "id": "iran-poly-002",
+      "title": "US-Iran Official Ceasefire by March 15",
+      "probability": 40,
+      "change24h": 5,
+      "volume": 45000000,
+      "category": "ceasefire",
+      "trend": "up",
+      "notes": "市场预期3月中旬有40%概率达成停火"
+    },
+    {
+      "id": "iran-poly-003",
+      "title": "US-Iran Official Ceasefire by March 31",
+      "probability": 62,
+      "change24h": 8,
+      "volume": 38000000,
+      "category": "ceasefire",
+      "trend": "up",
+      "notes": "3月底前停火概率上升至62%"
+    },
+    {
+      "id": "iran-poly-004",
+      "title": "US-Iran Official Ceasefire by April 30",
+      "probability": 77,
+      "change24h": 10,
+      "volume": 25000000,
+      "category": "ceasefire",
+      "trend": "up",
+      "notes": "4月底前停火概率达77%，市场预期冲突持续数周"
+    },
+    {
+      "id": "iran-poly-005",
+      "title": "Iran Closes Strait of Hormuz by 2027",
+      "probability": 18,
+      "change24h": 3,
+      "volume": 12000000,
+      "category": "strait",
+      "trend": "up",
+      "notes": "霍尔木兹海峡关闭概率，IMF PortWatch数据作为结算依据"
+    },
+    {
+      "id": "iran-poly-006",
+      "title": "US Ground Troops Enter Iran by 2027",
+      "probability": 19,
+      "change24h": 2,
+      "volume": 207000,
+      "category": "ground_war",
+      "trend": "up",
+      "notes": "美军地面部队进入伊朗概率"
+    },
+    {
+      "id": "iran-poly-007",
+      "title": "US Troops Enter Iran by March 7",
+      "probability": 28,
+      "change24h": 5,
+      "volume": 2000000,
+      "category": "ground_war",
+      "trend": "up",
+      "notes": "3月7日前美军进入伊朗概率上升至28%"
+    },
+    {
+      "id": "iran-poly-008",
+      "title": "Iranian Regime Falls by June 30",
+      "probability": 54,
+      "change24h": 15,
+      "volume": 15000000,
+      "category": "regime_change",
+      "trend": "up",
+      "notes": "哈梅内伊去世后，政权更迭概率从20%区间飙升至54%"
+    },
+    {
+      "id": "iran-poly-009",
+      "title": "Supreme Leader Position Abolished",
+      "probability": 30,
+      "change24h": 8,
+      "volume": 8000000,
+      "category": "regime_change",
+      "trend": "up",
+      "notes": "最高领袖职位被废除概率达30%，阿里·拉里贾尼领先候选人"
+    },
+    {
+      "id": "iran-poly-010",
+      "title": "Khamenei Out as Supreme Leader by March 31",
+      "probability": 100,
+      "change24h": 0,
+      "volume": 45000000,
+      "category": "resolved",
+      "trend": "resolved",
+      "notes": "已结算：哈梅内伊于2月28日确认死亡，该市场以100%结算"
+    },
+    {
+      "id": "iran-poly-011",
+      "title": "US Strikes Iran (Historical Volume)",
+      "probability": 100,
+      "change24h": 0,
+      "volume": 529000000,
+      "category": "resolved",
+      "trend": "resolved",
+      "notes": "史上最大地缘政治市场，2月28日单日交易量8960万美元"
+    }
+  ],
+  "summary": {
+    "total_markets": 11,
+    "total_volume_usd": 891207000,
+    "highest_probability": 100,
+    "lowest_probability": 4,
+    "dominant_category": "ceasefire",
+    "last_strike_date": "2026-02-28",
+    "khamenei_status": "deceased_confirmed"
+  },
+  "meta": {
+    "data_collected_at": "2026-03-04T08:48:00+08:00",
+    "next_update": "2026-03-04T09:48:00+08:00",
+    "data_source": "kimi_search_polymarket",
+    "reliability": "high"
+  }
+}

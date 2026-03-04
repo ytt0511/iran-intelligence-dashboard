@@ -1,0 +1,544 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-04T08:56:20.244750",
+    "period_start": "2026-02-03",
+    "period_end": "2026-03-04",
+    "total_days": 30,
+    "data_points": 30
+  },
+  "current_status": {
+    "phase_deg": 150.3,
+    "amplitude": 36.88,
+    "phase_velocity": 16.06,
+    "position": "下降期",
+    "completion_percent": 91.7
+  },
+  "prediction": {
+    "current_phase_deg": 150.261289825856,
+    "target_phase_deg": 0.0,
+    "phase_velocity_deg_per_day": 16.05733621801224,
+    "days_to_peak": 13,
+    "predicted_peak_date": "2026-03-17",
+    "confidence": 0.5
+  },
+  "phase_data": [
+    {
+      "date": "2026-02-03",
+      "real": 4.0193548387096705,
+      "imag": -22.644088295057045,
+      "amplitude": 22.998042265240716,
+      "phase": -79.93475910249798,
+      "unwrapped_phase": -1.3951247331270973,
+      "phase_velocity": 15.286657368461261,
+      "value": 16
+    },
+    {
+      "date": "2026-02-04",
+      "real": 8.052502780867627,
+      "imag": 4.115681498725918,
+      "amplitude": 9.04331992328236,
+      "phase": 27.071842476730854,
+      "unwrapped_phase": 0.47249278580020976,
+      "phase_velocity": 4.563591586332763,
+      "value": 21
+    },
+    {
+      "date": "2026-02-05",
+      "real": 11.085650723025575,
+      "imag": -3.188074271102182,
+      "amplitude": 11.534967252271729,
+      "phase": -16.044476893839303,
+      "unwrapped_phase": -0.28002894855764854,
+      "phase_velocity": 2.2905708049106033,
+      "value": 25
+    },
+    {
+      "date": "2026-02-06",
+      "real": 9.118798665183531,
+      "imag": 15.26046921534094,
+      "amplitude": 17.777356658640834,
+      "phase": 59.139833745479294,
+      "unwrapped_phase": 1.0321848179406639,
+      "phase_velocity": 9.009911358422563,
+      "value": 24
+    },
+    {
+      "date": "2026-02-07",
+      "real": -3.8480533926585188,
+      "imag": 10.51855258420771,
+      "amplitude": 11.200333181628725,
+      "phase": 110.09428212407657,
+      "unwrapped_phase": 1.9215077106846725,
+      "phase_velocity": 6.439692279681311,
+      "value": 12
+    },
+    {
+      "date": "2026-02-08",
+      "real": -7.814905450500563,
+      "imag": 4.640976767561318,
+      "amplitude": 9.089082052512635,
+      "phase": 149.29552566101765,
+      "unwrapped_phase": 2.6056984812804416,
+      "phase_velocity": 9.561643634023147,
+      "value": 9
+    },
+    {
+      "date": "2026-02-09",
+      "real": -1.7817575083426058,
+      "imag": -3.6462438051289636,
+      "amplitude": 4.058294433007122,
+      "phase": -116.04270699959933,
+      "unwrapped_phase": 4.257857997109507,
+      "phase_velocity": 17.425096690120434,
+      "value": 16
+    },
+    {
+      "date": "2026-02-10",
+      "real": 1.251390433815349,
+      "imag": 0.8203500670577256,
+      "amplitude": 1.4963128851835041,
+      "phase": 33.24687932270374,
+      "unwrapped_phase": 6.863452817373989,
+      "phase_velocity": 6.914050810385029,
+      "value": 20
+    },
+    {
+      "date": "2026-02-11",
+      "real": 4.284538375973301,
+      "imag": -1.4958918314608742,
+      "amplitude": 4.538167192448874,
+      "phase": -19.24599565420896,
+      "unwrapped_phase": 5.94727931518912,
+      "phase_velocity": 0.5903808736509798,
+      "value": 24
+    },
+    {
+      "date": "2026-02-12",
+      "real": 8.317686318131251,
+      "imag": 7.362028198888811,
+      "amplitude": 11.10780648409315,
+      "phase": 41.51221155381742,
+      "unwrapped_phase": 7.007710078578132,
+      "phase_velocity": 7.699247830977717,
+      "value": 29
+    },
+    {
+      "date": "2026-02-13",
+      "real": 0.35083426028920334,
+      "imag": 13.7978943641026,
+      "amplitude": 13.802353913775974,
+      "phase": 88.54347397947912,
+      "unwrapped_phase": 7.8285604592754225,
+      "phase_velocity": 6.030999331811605,
+      "value": 22
+    },
+    {
+      "date": "2026-02-14",
+      "real": -7.616017797552846,
+      "imag": 10.503274187404719,
+      "amplitude": 12.973915975851083,
+      "phase": 125.94620219917992,
+      "unwrapped_phase": 8.481361215937799,
+      "phase_velocity": 3.791854477125985,
+      "value": 15
+    },
+    {
+      "date": "2026-02-15",
+      "real": -9.58286985539489,
+      "imag": 7.587276108740841,
+      "amplitude": 12.222853734529659,
+      "phase": 141.62943665924288,
+      "unwrapped_phase": 8.755085294628133,
+      "phase_velocity": 3.520519281604608,
+      "value": 14
+    },
+    {
+      "date": "2026-02-16",
+      "real": -15.549721913236938,
+      "imag": 1.296598890379595,
+      "amplitude": 15.603686111349926,
+      "phase": 175.23347214164443,
+      "unwrapped_phase": 9.34158635575304,
+      "phase_velocity": 6.105661074717141,
+      "value": 9
+    },
+    {
+      "date": "2026-02-17",
+      "real": -8.516573971078982,
+      "imag": -9.16771366996285,
+      "amplitude": 12.513153325172825,
+      "phase": -132.8913082947172,
+      "unwrapped_phase": 10.246979737333508,
+      "phase_velocity": 7.1627004372852685,
+      "value": 17
+    },
+    {
+      "date": "2026-02-18",
+      "real": 0.516573971078969,
+      "imag": -5.353779443771693,
+      "amplitude": 5.378643230420533,
+      "phase": -84.48872173636177,
+      "unwrapped_phase": 11.091764239258358,
+      "phase_velocity": 10.621690325408077,
+      "value": 27
+    },
+    {
+      "date": "2026-02-19",
+      "real": 0.5497219132369195,
+      "imag": 0.15568367405351088,
+      "amplitude": 0.5713419188714051,
+      "phase": 15.812356260995957,
+      "unwrapped_phase": 12.842348293611892,
+      "phase_velocity": 12.860045473929945,
+      "value": 28
+    },
+    {
+      "date": "2026-02-20",
+      "real": -0.4171301446051179,
+      "imag": 4.291302793615572,
+      "amplitude": 4.311528409280299,
+      "phase": 95.55191489865746,
+      "unwrapped_phase": 14.234066135926168,
+      "phase_velocity": 9.080476522874713,
+      "value": 28
+    },
+    {
+      "date": "2026-02-21",
+      "real": -11.383982202447175,
+      "imag": 8.59745476645531,
+      "amplitude": 14.265737949607765,
+      "phase": 142.939027581242,
+      "unwrapped_phase": 15.061127275250831,
+      "phase_velocity": 7.587815575402691,
+      "value": 18
+    },
+    {
+      "date": "2026-02-22",
+      "real": -18.350834260289222,
+      "imag": -7.3328757618460605,
+      "amplitude": 19.76168477097219,
+      "phase": -158.21866704570485,
+      "unwrapped_phase": 16.08811924347456,
+      "phase_velocity": 6.768905426791944,
+      "value": 12
+    },
+    {
+      "date": "2026-02-23",
+      "real": -8.317686318131262,
+      "imag": -13.159161863557438,
+      "amplitude": 15.567512538557098,
+      "phase": -122.29629644367083,
+      "unwrapped_phase": 16.71508288560167,
+      "phase_velocity": 3.8425412549089004,
+      "value": 23
+    },
+    {
+      "date": "2026-02-24",
+      "real": -4.284538375973311,
+      "imag": -16.659301298861056,
+      "amplitude": 17.201441476266506,
+      "phase": -104.42308947698025,
+      "unwrapped_phase": 17.02702919506081,
+      "phase_velocity": 3.8709375728274362,
+      "value": 28
+    },
+    {
+      "date": "2026-02-25",
+      "real": 5.748609566184638,
+      "imag": -14.302402283783024,
+      "amplitude": 15.414448515324557,
+      "phase": -68.1031704240867,
+      "unwrapped_phase": 17.660931366591623,
+      "phase_velocity": 3.3558882712771982,
+      "value": 39
+    },
+    {
+      "date": "2026-02-26",
+      "real": 5.7817575083425945,
+      "imag": -9.05483077420896,
+      "amplitude": 10.743308626062904,
+      "phase": -57.44065367909948,
+      "unwrapped_phase": 17.847027390340678,
+      "phase_velocity": 0.6329780689428542,
+      "value": 40
+    },
+    {
+      "date": "2026-02-27",
+      "real": 6.814905450500547,
+      "imag": -11.450949537656394,
+      "amplitude": 13.325433636967137,
+      "phase": -59.241477458886784,
+      "unwrapped_phase": 17.81559708613518,
+      "phase_velocity": 3.119234060627273,
+      "value": 42
+    },
+    {
+      "date": "2026-02-28",
+      "real": 19.8480533926585,
+      "imag": -4.864637119493209,
+      "amplitude": 20.435506301096964,
+      "phase": -13.77137683031779,
+      "unwrapped_phase": 18.609200053316854,
+      "phase_velocity": 10.703393914885707,
+      "value": 56
+    },
+    {
+      "date": "2026-03-01",
+      "real": -0.118798665183544,
+      "imag": 11.231004634683693,
+      "amplitude": 11.231632927902156,
+      "phase": 90.60603734951316,
+      "unwrapped_phase": 20.43092959547272,
+      "phase_velocity": -3.950470327212513,
+      "value": 37
+    },
+    {
+      "date": "2026-03-02",
+      "real": 8.914349276974406,
+      "imag": -23.317456903272156,
+      "amplitude": 24.96336154182462,
+      "phase": -69.07796141129282,
+      "unwrapped_phase": 17.64391805434611,
+      "phase_velocity": -3.7675786464101937,
+      "value": 47
+    },
+    {
+      "date": "2026-03-03",
+      "real": 34.94749721913236,
+      "imag": 27.16665942546511,
+      "amplitude": 44.264601503012265,
+      "phase": 37.85993629977036,
+      "unwrapped_phase": 19.51033646456507,
+      "phase_velocity": 15.66708937408207,
+      "value": 74
+    },
+    {
+      "date": "2026-03-04",
+      "real": -32.01935483870969,
+      "imag": 18.29219968247854,
+      "amplitude": 36.87605799852893,
+      "phase": 150.26128982585604,
+      "unwrapped_phase": 21.472110167293405,
+      "phase_velocity": 16.05733621801224,
+      "value": 8
+    }
+  ],
+  "time_series": [
+    {
+      "date": "2026-02-03",
+      "value": 16,
+      "amplitude": 23.0,
+      "phase": -79.9,
+      "phase_velocity": 15.29
+    },
+    {
+      "date": "2026-02-04",
+      "value": 21,
+      "amplitude": 9.04,
+      "phase": 27.1,
+      "phase_velocity": 4.56
+    },
+    {
+      "date": "2026-02-05",
+      "value": 25,
+      "amplitude": 11.53,
+      "phase": -16.0,
+      "phase_velocity": 2.29
+    },
+    {
+      "date": "2026-02-06",
+      "value": 24,
+      "amplitude": 17.78,
+      "phase": 59.1,
+      "phase_velocity": 9.01
+    },
+    {
+      "date": "2026-02-07",
+      "value": 12,
+      "amplitude": 11.2,
+      "phase": 110.1,
+      "phase_velocity": 6.44
+    },
+    {
+      "date": "2026-02-08",
+      "value": 9,
+      "amplitude": 9.09,
+      "phase": 149.3,
+      "phase_velocity": 9.56
+    },
+    {
+      "date": "2026-02-09",
+      "value": 16,
+      "amplitude": 4.06,
+      "phase": -116.0,
+      "phase_velocity": 17.43
+    },
+    {
+      "date": "2026-02-10",
+      "value": 20,
+      "amplitude": 1.5,
+      "phase": 33.2,
+      "phase_velocity": 6.91
+    },
+    {
+      "date": "2026-02-11",
+      "value": 24,
+      "amplitude": 4.54,
+      "phase": -19.2,
+      "phase_velocity": 0.59
+    },
+    {
+      "date": "2026-02-12",
+      "value": 29,
+      "amplitude": 11.11,
+      "phase": 41.5,
+      "phase_velocity": 7.7
+    },
+    {
+      "date": "2026-02-13",
+      "value": 22,
+      "amplitude": 13.8,
+      "phase": 88.5,
+      "phase_velocity": 6.03
+    },
+    {
+      "date": "2026-02-14",
+      "value": 15,
+      "amplitude": 12.97,
+      "phase": 125.9,
+      "phase_velocity": 3.79
+    },
+    {
+      "date": "2026-02-15",
+      "value": 14,
+      "amplitude": 12.22,
+      "phase": 141.6,
+      "phase_velocity": 3.52
+    },
+    {
+      "date": "2026-02-16",
+      "value": 9,
+      "amplitude": 15.6,
+      "phase": 175.2,
+      "phase_velocity": 6.11
+    },
+    {
+      "date": "2026-02-17",
+      "value": 17,
+      "amplitude": 12.51,
+      "phase": -132.9,
+      "phase_velocity": 7.16
+    },
+    {
+      "date": "2026-02-18",
+      "value": 27,
+      "amplitude": 5.38,
+      "phase": -84.5,
+      "phase_velocity": 10.62
+    },
+    {
+      "date": "2026-02-19",
+      "value": 28,
+      "amplitude": 0.57,
+      "phase": 15.8,
+      "phase_velocity": 12.86
+    },
+    {
+      "date": "2026-02-20",
+      "value": 28,
+      "amplitude": 4.31,
+      "phase": 95.6,
+      "phase_velocity": 9.08
+    },
+    {
+      "date": "2026-02-21",
+      "value": 18,
+      "amplitude": 14.27,
+      "phase": 142.9,
+      "phase_velocity": 7.59
+    },
+    {
+      "date": "2026-02-22",
+      "value": 12,
+      "amplitude": 19.76,
+      "phase": -158.2,
+      "phase_velocity": 6.77
+    },
+    {
+      "date": "2026-02-23",
+      "value": 23,
+      "amplitude": 15.57,
+      "phase": -122.3,
+      "phase_velocity": 3.84
+    },
+    {
+      "date": "2026-02-24",
+      "value": 28,
+      "amplitude": 17.2,
+      "phase": -104.4,
+      "phase_velocity": 3.87
+    },
+    {
+      "date": "2026-02-25",
+      "value": 39,
+      "amplitude": 15.41,
+      "phase": -68.1,
+      "phase_velocity": 3.36
+    },
+    {
+      "date": "2026-02-26",
+      "value": 40,
+      "amplitude": 10.74,
+      "phase": -57.4,
+      "phase_velocity": 0.63
+    },
+    {
+      "date": "2026-02-27",
+      "value": 42,
+      "amplitude": 13.33,
+      "phase": -59.2,
+      "phase_velocity": 3.12
+    },
+    {
+      "date": "2026-02-28",
+      "value": 56,
+      "amplitude": 20.44,
+      "phase": -13.8,
+      "phase_velocity": 10.7
+    },
+    {
+      "date": "2026-03-01",
+      "value": 37,
+      "amplitude": 11.23,
+      "phase": 90.6,
+      "phase_velocity": -3.95
+    },
+    {
+      "date": "2026-03-02",
+      "value": 47,
+      "amplitude": 24.96,
+      "phase": -69.1,
+      "phase_velocity": -3.77
+    },
+    {
+      "date": "2026-03-03",
+      "value": 74,
+      "amplitude": 44.26,
+      "phase": 37.9,
+      "phase_velocity": 15.67
+    },
+    {
+      "date": "2026-03-04",
+      "value": 8,
+      "amplitude": 36.88,
+      "phase": 150.3,
+      "phase_velocity": 16.06
+    }
+  ],
+  "summary": {
+    "today_news_count": 8,
+    "risk_level": "CRITICAL",
+    "avg_news_7d": 43.4,
+    "trend": "下降"
+  }
+}
