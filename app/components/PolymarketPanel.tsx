@@ -330,7 +330,7 @@ export default function PolymarketPanel({ lastUpdate }: PolymarketPanelProps) {
             {/* Chart */}
             <div className="h-40">
               <ResponsiveContainer width="100%" height="100%">
-                <LineChart data={currentData}>
+                <LineChart data={currentData || undefined}>
                   <XAxis
                     dataKey="datetime"
                     tick={{ fill: '#9ca3af', fontSize: 10 }}
