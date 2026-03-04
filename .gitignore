@@ -41,3 +41,5 @@ Thumbs.db
 
 # Data files (large datasets)
 data/polymarket_data/
+
+.vercel
