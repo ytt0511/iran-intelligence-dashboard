@@ -1,5 +1,6 @@
 import { NextResponse } from 'next/server';
 import { ApiResponse, AssetPrice } from '@/app/types';
+import { isBuildTime, buildTimeSkipResponse } from '@/app/lib/build-utils';
 
 // Cache configuration
 const CACHE_DURATION = 2 * 60 * 1000; // 2 minutes for market data
@@ -42,14 +43,10 @@ function generateMiniChart(currentPrice: number, changePercent: number, points: 
   return data;
 }
 
-// Check if we're in build/static generation mode
-const isBuildTime = process.env.NEXT_PHASE === 'phase-production-build' || 
-                    (process.env.NODE_ENV === 'production' && typeof window === 'undefined');
-
 // Fetch data from Yahoo Finance
 async function fetchYahooFinanceData(symbol: string): Promise<any> {
   // During build time, immediately throw to use fallback
-  if (isBuildTime) {
+  if (isBuildTime()) {
     throw new Error('Skipping API call during build');
   }
   
@@ -213,6 +210,11 @@ function getFallbackData(): AssetPrice[] {
 }
 
 export async function GET() {
+  // Skip during build time
+  if (isBuildTime()) {
+    return buildTimeSkipResponse('Skipping market data fetch during build');
+  }
+
   try {
     const now = Date.now();
     

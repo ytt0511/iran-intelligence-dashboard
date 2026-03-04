@@ -2,7 +2,15 @@
   "permissions": {
     "allow": [
       "Bash(npx vercel@latest:*)",
-      "Bash(rm:*)"
+      "Bash(rm:*)",
+      "Bash(curl:*)",
+      "Bash(npm install:*)",
+      "Bash(npx wrangler@latest:*)",
+      "Bash(npm run:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(git config:*)"
     ]
   }
 }

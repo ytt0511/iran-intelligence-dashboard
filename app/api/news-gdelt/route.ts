@@ -2,6 +2,7 @@ import { NextResponse } from 'next/server';
 import fs from 'fs';
 import path from 'path';
 import { ApiResponse, NewsItem, NewsHourlySummary } from '@/app/types';
+import { isBuildTime, buildTimeSkipResponse } from '@/app/lib/build-utils';
 
 // GDELT API Configuration
 const GDELT_DOC_API = "https://api.gdeltproject.org/api/v2/doc/doc";
@@ -23,6 +24,11 @@ interface GDELTArticle {
 
 // Fetch data from GDELT API
 async function fetchGDELTData(): Promise<GDELTArticle[]> {
+  // Skip during build time
+  if (isBuildTime()) {
+    throw new Error('Skipping GDELT API call during build');
+  }
+
   try {
     const endDate = new Date();
     const startDate = new Date(endDate.getTime() - 7 * 24 * 60 * 60 * 1000); // Last 7 days
@@ -182,6 +188,11 @@ function readLocalNewsData(): { items: NewsItem[]; summary: NewsHourlySummary } 
 }
 
 export async function GET() {
+  // Skip during build time
+  if (isBuildTime()) {
+    return buildTimeSkipResponse('Skipping GDELT news fetch during build');
+  }
+
   try {
     const now = Date.now();
     

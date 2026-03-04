@@ -1,5 +1,6 @@
 import { NextResponse } from 'next/server';
 import { ApiResponse, NewsItem, NewsHourlySummary } from '@/app/types';
+import { isBuildTime, buildTimeSkipResponse } from '@/app/lib/build-utils';
 
 // Cache configuration
 const CACHE_DURATION = 10 * 60 * 1000; // 10 minutes for news
@@ -316,6 +317,11 @@ function getFallbackNews(): NewsItem[] {
 }
 
 export async function GET() {
+  // Skip during build time
+  if (isBuildTime()) {
+    return buildTimeSkipResponse('Skipping news fetch during build');
+  }
+
   try {
     const now = Date.now();
     
